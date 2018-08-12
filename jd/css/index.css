@@ -1,0 +1,208 @@
+.container {
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    /* background: rgba(201, 21, 35, 0); */
+    z-index: 888;
+}
+.header .center {
+    position: absolute;
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+}
+.header .logo {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 55px;
+    height: 20px;
+    line-height: 40px;
+    background: url(../images/sprites.png) no-repeat 0 -109px;
+    background-size: 200px 200px;
+    margin-left: 5px;
+}
+.header .login {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+}
+.header .search {
+   width: 100%;
+   position: relative;
+   padding: 5px 55px 0 80px;
+}
+.header .search input {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    padding: 0 0 0 35px;
+}
+.header .search span {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    width: 19px;
+    height: 19px;
+    background: url(../images/sprites.png) no-repeat -60px -110px;
+    background-size: 200px 200px;
+}
+/* 头部 */
+.banner img{
+    width: 100%;
+}
+/*  轮播  */
+.nav {
+    padding: 10px;
+    background-color: #fff;
+}
+.nav ul {
+    overflow: hidden;
+}
+.nav li {
+    float: left;
+    width: 25%; 
+    text-align: center;
+    margin-top: 8px;
+
+}
+.nav img {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+}
+.nav span {
+}
+/* /导航 */
+/* 主体内容 */
+.main {
+    padding: 0  8px;
+}
+.product {
+    box-shadow: 0 0  5px #ccc;
+}
+.product:first-child .product-title {
+    border-bottom: none;
+}
+.product .product-title {
+    height: 32px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+.product-title .title {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 25px;
+    margin-left: 10px;
+    color: #d8505c;
+}
+.product-title .title::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 17px;
+    height: 20px;
+    background: url(../images/seckill-icon.png) no-repeat;
+    background-size: 17px 20px;
+}
+.product-title .countDown  {
+    top: 0;
+    left: 100px;
+    padding: 8px 0 0 0;
+}
+.product-title .countDown span {
+    float:left;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    margin: 0 2px;
+}
+.product-title .countDown span:nth-child(3n) {
+    width: 6px;
+    font-weight: 700;
+    margin: 0;
+    background-color: #fff;
+    color: black;
+}
+.product-title .right{
+    top: 0;
+    right: 0;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.product-title .right i {
+    margin: 0 6px 0 0px;
+    height: 32px;
+    line-height: 29px;
+    font-size: 20px;
+}
+.product-title .right span {
+    position: relative;
+    top: -2px;
+}
+/* /主体部分标题 */
+.product-content {
+    overflow: hidden;
+    background-color: #fff;
+}
+.product-content ul {
+    padding: 10px;
+    overflow: hidden;
+}
+.product-content ul li {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    margin-top: 10px;
+    border-right:  1px solid #e0e0e0;
+}
+.product-content ul li:last-child {
+    border: none;
+}
+.product-content ul img {
+   width: 65%;
+}
+.product-content span {
+    display: block;
+}
+.product-content .oldPrick {
+    text-decoration: line-through;
+}
+.product-title .count {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px; 
+}
+.product-title .count::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 3px;
+    height: 12px;
+    background-color: #d8505c;
+}
+.items img {
+    width: 100%;
+}

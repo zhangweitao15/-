@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./js/swiper/css/swiper.min.css">
+	<script src="./js/swiper/js/swiper.min.js"></script>
+</head>
+<body>
+	<header class="header">
+		<!-- 
+			text 和 search 的区别 
+			text 移动端的小键盘会显示确定
+			search 在移动端的小键盘会显示搜索
+		-->
+		<div class="search">
+				<input type="search" placeholder="提示文字...">
+		</div>
+			<a href="#" class="mine">
+				<img src="./images/icon.png">
+				<span>我的</span>
+			</a>
+	</header>
+	<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="./images/banner01.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="./images/banner02.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="./images/banner03.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="./images/banner04.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="./images/banner05.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="./images/banner06.jpg" alt=""></div>
+			</div>
+		<div class="swiper-pagination"></div>
+	</div>
+	<main class="main">
+		<!-- 导航 -->
+		<nav class="nav">
+			<a href="#">
+				<img src="./images/nav1.png">
+				<span>景点</span>
+			</a>
+			<a href="#">
+				<img src="./images/nav2.png">
+				<span>景点</span>
+			</a>
+			<a href="#">
+				<img src="./images/nav3.png">
+				<span>景点</span>
+			</a>
+			<a href="#">
+				<img src="./images/nav4.png">
+				<span>景点</span>
+			</a>
+			<a href="#">
+				<img src="./images/nav5.png">
+				<span>景点</span>
+			</a>
+		</nav>
+		<!-- /导航 -->
+		<!-- 链接 -->
+		<div class="business business-1">
+			<div class="title">
+				<span>酒店</span>
+			</div>
+			<div class="links">
+				<a href="#">上上的</a>
+				<a href="#">水电费</a>
+				<a href="#">水电费</a>
+				<a href="#">水电费</a>
+			</div>
+			
+		</div>
+		<div class="business business-2">
+				<div class="title">
+					<span>酒店</span>
+				</div>
+				<div class="links">
+					<a href="#">上上的</a>
+					<a href="#">水电费</a>
+					<a href="#">水电费</a>
+					<a href="#">水电费</a>
+				</div>
+				
+		</div>
+		<div class="business business-3">
+				<div class="title">
+					<span>酒店</span>
+				</div>
+				<div class="links">
+					<a href="#">上上的</a>
+					<a href="#">水电费</a>
+					<a href="#">水电费</a>
+					<a href="#">水电费</a>
+				</div>
+		</div>
+		<!-- /链接 -->
+		<!--子导航-->
+		<nav class="subNav">
+			<a href="#"><img src="images/subnav2.png" alt=""><span>wifi电话</span></a>
+			<a href="#"><img src="images/subnav3.png" alt=""><span>wifi电话</span></a>
+			<a href="#"><img src="images/subnav4.png" alt=""><span>wifi电话</span></a>
+			<a href="#"><img src="images/subnav5.png" alt=""><span>wifi电话</span></a>
+			<a href="#"><img src="images/subnav6.png" alt=""><span>wifi电话</span></a>
+			<a href="#"><img src="images/subnav7.png" alt=""><span>wifi电话</span></a>
+			<a href="#"><img src="images/subnav8.png" alt=""><span>wifi电话</span></a>
+			<a href="#"><img src="images/subnav9.png" alt=""><span>wifi电话</span></a>
+			<a href="#"><img src="images/subnav10.png" alt=""><span>wifi电话</span></a>
+			<a href="#"><img src="images/subnav11.png" alt=""><span>wifi电话</span></a>
+			<a href="#"><img src="images/subnav12.png" alt=""><span>wifi电话</span></a>
+			<a href="#"><img src="images/subnav1.png" alt=""><span>wifi电话</span></a>
+		</nav>
+		<!--/子导航-->
+
+	</main>
+	<script>
+	 var mySwiper =	new Swiper ('.swiper-container', {
+		pagination: {
+			el: '.swiper-pagination'
+		}
+	})
+	</script>
+</body>
+</html>

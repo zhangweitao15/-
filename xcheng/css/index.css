@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	font-size: 12px;
+}
+* {
+	box-sizing: border-box;
+}
+input {
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+.header {
+	height: 40px;
+	background-color: #f5f5f5;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+}
+.header .search input {
+	border: 1px solid #999;
+	border-radius: 6px;
+	height: 30px;
+	padding-left: 30px;
+	width: 100%;
+}
+.header .search {
+	position: relative;
+	flex-grow: 1;
+	margin-right: 10px;
+}
+.header .search::before {
+	content: '';
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	left: 10px;
+	top: 8px;
+	background: url(../images/glass.png) no-repeat;
+	background-size: 13px 13px 
+}
+.header .mine {
+	display: flex;
+	flex-direction: column;
+	color: #099fde;
+}
+.header .mine img {
+	width: 22px;
+	height: 22px;
+
+}
+.swiper-container img {
+	vertical-align: middle;
+	width: 100%;
+}
+.main {
+	background-color: #ddd;
+	padding: 0 5px;
+	overflow: hidden;
+}
+.nav {
+	display: flex;
+	background-color: #fff;
+	border-radius: 6px;
+	margin: 10px 0;
+	justify-content: space-around;
+}
+.nav a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-grow: 1;
+	padding : 10px 0;
+
+}
+.nav a img {
+	width: 70%;
+}
+.nav a span {
+	padding-top : 8px;
+}
+.business {
+	display: flex;
+	font-size: 14px;
+	color: #fff
+}
+.business .title {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+}
+.business .title span {
+	padding-top: 20px;
+}
+.business .links {
+	flex-grow: 2;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.business .links a {
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	border-left: 1px solid #fff;
+
+}
+.business .links a:nth-child(-n + 2) {
+	border-bottom: 1px solid #fff;
+}
+.business-1 {
+	background-image: linear-gradient(to right, #fa5a55, #fa9b4a );
+	border-radius: 6px 6px 0 0;
+	border-bottom: 3px solid #fff;
+}
+.business-2 {
+	background-image: linear-gradient(to right, #4b90ed, #53bbed);
+
+	border-bottom: 3px solid #fff;
+}
+.business-3 {
+	background-image: linear-gradient(to right, #34c2a9, #6bd459);
+}
+.business-1 .title {
+	background: url(../images/item1.png) no-repeat bottom / contain;
+}
+.business-2 .title {
+	background: url(../images/item2.png) no-repeat bottom / contain;
+}
+.business-3 .title {
+	background: url(../images/item3.png) no-repeat bottom / contain;
+}
+.subNav {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+	margin-top: 10px;
+	border-radius: 6px;
+}
+.subNav a {
+	display: flex;
+	flex-direction: column;
+	width: 16.666%;
+	align-items: center;
+}
